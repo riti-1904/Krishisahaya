@@ -1,0 +1,396 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5fff5;
+    color: #2e7d32;
+}
+
+/* Header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 10px 20px;
+}
+
+header .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+header a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 50px;
+    background: url('https://greensmarteco.com/wp-content/uploads/2020/07/ecological-agriculture-organic-food-from-eco-friendly-farm.jpg') no-repeat center center/cover;
+    color: black;
+    height: 400px;
+}
+
+.banner h1 {
+    font-size: 3rem;
+    margin: 0;
+    color: #1b5e20;
+}
+
+.banner p {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: black;
+}
+
+.banner .buttons button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border: none;
+    cursor: pointer;
+}
+
+.banner .buttons button:first-child {
+    background-color: #1b5e20;
+    color: white;
+}
+
+.banner .buttons button:last-child {
+    background-color: #4caf50;
+    color: white;
+}
+
+/* Features Section */
+#features {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f1f8e9;
+}
+
+#features h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.feature-cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    border: 1px solid #c8e6c9;
+    border-radius: 8px;
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card h3 {
+    margin: 0 0 10px;
+    color: #2e7d32;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2e7d32;
+    color: white;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+
+/* About Us Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f8e9;
+    color: #2e7d32;
+}
+
+.about h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.about ul {
+    list-style-type: disc;
+    margin: 20px auto;
+    text-align: left;
+    width: 80%;
+    line-height: 1.6;
+}
+
+.about ul li {
+    margin: 10px 0;
+    font-size: 1.1rem;
+}
+
+.about h2 {
+    margin-top: 30px;
+    font-size: 2rem;
+    color: #1b5e20;
+}
+
+/* Features Section */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    padding: 50px 20px;
+    background-color: #f1f8e9;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.feature-card img {
+    width: 80px;
+    margin-bottom: 20px;
+}
+
+.feature-card h3 {
+    color: #1b5e20;
+}
+
+.feature-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Call-to-Action */
+.cta {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #2e7d32;
+    color: white;
+}
+
+.cta h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.cta button {
+    padding: 15px 30px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.cta button:hover {
+    background-color: #2e7d32;
+}
+
+/* Contact Section */
+.contact {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f1f8e9;
+}
+
+.contact h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+}
+
+.contact p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    font-size: 1rem;
+    margin-bottom: 8px;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #c8e6c9;
+    border-radius: 5px;
+    background-color: #f9fff9;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    border-color: #4caf50;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #4caf50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #2e7d32;
+}
+
+/* FAQ Section */
+.faq {
+    padding: 50px 20px;
+    text-align: center;
+    background-color: #f1f8e9;
+}
+
+.faq h1 {
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.accordion {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-item {
+    border-bottom: 1px solid #c8e6c9;
+}
+
+.accordion-header {
+    background-color: #4caf50;
+    color: white;
+    text-align: left;
+    padding: 15px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    width: 100%;
+    border: none;
+    outline: none;
+    transition: background-color 0.3s;
+}
+
+.accordion-header:hover {
+    background-color: #388e3c;
+}
+
+.accordion-body {
+    padding: 20px;
+    background-color: #f9fff9;
+    display: none;
+    font-size: 1rem;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #2e7d32;
+    color: white;
+    padding: 20px;
+}
+
+footer .social-icons a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+}
+.form-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: green;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
